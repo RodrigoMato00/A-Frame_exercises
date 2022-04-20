@@ -68,6 +68,22 @@ El sistema de gestión de activos es donde podemos almacenar texturas, audio y a
 
 Crear la escena utilizando los elementos anteriores.
 
+### 4-Sistema_Solar_2
+
+Esta es la parte 2 de un proyecto acumulativo en tres partes. En las partes 2 y 3, añadiremos texturas y animaciones al sistema solar.
+
+- Añadir un `<a-sky>` una imagen de fondo
+- Agregar texturas a los planetas y al sol
+- Elimina el componente de `color` de cada uno de tus planetas `<a-sphere>` y añade un `src` del `id` de la textura de la imagen. Añadir el `#` antes del nombre del `id`.
+- Casi todos los planetas de nuestro sistema solar giran en sentido contrario a las agujas del reloj. Las dos anomalías en cuestión son Venus y Urano. Estos planetas giran en el sentido de las agujas del reloj o retrógrado.
+Utilice el componente de `animation` para añadir alguna animación de rotación.
+
+### 5-Black_lives_matter
+
+El arte perceptual desafía los límites del espectador utilizando técnicas multidimensionales para crear representaciones tridimensionales de imágenes planas. Tiene sus raíces en los conceptos de la historia del arte del perceptualismo, así como en las invenciones del arte conceptual y la performance del siglo XX.
+
+Diseñaremos una pieza de arte perceptual en honor al reciente movimiento Black Lives Matter y en memoria de las vidas perdidas bajo la violencia policial. Estamos utilizando la RV como medio para transmitir un mensaje, y es simplemente... las vidas negras importan. Nos solidarizamos y que cada una de sus almas descanse en paz.
+
 
 
 
