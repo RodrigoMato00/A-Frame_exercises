@@ -1,0 +1,176 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <!-- Asset management system -->
+      <a-assets>
+        <img
+          id="space"
+          src="space.webp">
+        <img
+          id="sun"
+          src="sun.jpg">
+        <img
+          id="mercury"
+          src="mercury.jpg">
+        <img
+          id="venus"
+          src="venus.jpg">
+        <img
+          id="earth"
+          src="earth.jpg">
+        <img
+          id="mars"
+          src="mars.jpg">
+        <img
+          id="jupiter"
+          src="jupiter.jpg">
+        <img
+          id="saturn"
+          src="saturn.jpg">
+        <img
+          id="saturn_ring"
+          src="saturn_ring.png">
+        <img
+          id="uranus"
+          src="uranus.jpg">
+        <img
+          id="neptune"
+          src="neptune.jpg">
+      </a-assets>
+
+      <a-sky
+        src="#space"></a-sky>
+
+      <!-- Sol -->
+      <a-sphere
+        src="#sun"
+        position="-12 2 -15"
+        radius="3"
+        ></a-sphere>
+
+      <!-- Mercurio -->
+      <a-sphere
+        src="#mercury"
+        position="-7 2 -15"
+        radius=".25"
+        animation="property: object3D.rotation.y;
+          to: 360;
+          dur: 100;
+          loop: true">
+    </a-sphere>
+
+      <!-- Venus -->
+      <a-sphere
+        src="#venus"
+        position="-5 2 -15"
+        radius=".5"
+        thetaStart="177.3"
+        animation="property: object3D.rotation.y;
+          to: -360;
+          dur: 9000;
+          loop: true"></a-sphere>
+
+      <!-- tierra -->
+      <a-sphere
+        src="#earth"
+        position="-3 2 -15"
+        radius=".5"
+        thetaStart="23.4"
+        animation="property: object3D.rotation.y;
+          to: 360;
+          dur: 10000;
+          loop: true">
+      </a-sphere>
+
+      <!-- Marte -->
+      <a-sphere
+        src="#mars"
+        position="-1 2 -15"
+        radius=".25"
+        thetaStart="25.2"
+        animation="property: object3D.rotation.y;
+          to: 360;
+          dur: 9700;
+          loop: true"></a-sphere>
+
+      <!-- Jupiter -->
+      <a-sphere
+        src="#jupiter"
+        position="1 2 -15"
+        radius="1"
+        thetaStart="3.1"
+        animation="property: object3D.rotation.y;
+          to: 360;
+          dur: 2000;
+          loop: true"></a-sphere>
+
+      <!-- Uranuo -->
+      <a-sphere
+        src="#uranus"
+        position="7 2 -15"
+        radius=".75"
+        thetaStart="97.8"
+        animation="property: object3D.rotation.y;
+          to: -360;
+          dur: 9000;
+          loop: true">></a-sphere>
+
+      <!-- Neptuno -->
+      <a-sphere
+        src="#neptune"
+        position="10 2 -15"
+        radius=".75"
+        animation="property: object3D.rotation.y;
+          to: 360;
+          dur: 8000;
+          loop: true"></a-sphere>
+
+      <!-- Saturno y anillos -->
+      <a-entity
+        position="4 2 -15">
+        <a-sphere
+          position="0 0 0"
+          radius=".8"
+          src="#saturn"
+          animation="property: object3D.rotation.y;
+          to: 360;
+          dur: 9000;
+          loop: true">></a-sphere>
+        <a-torus
+          id="saturn-ring-1"
+          src="#saturn_ring"
+          segments-tubular="50"
+          radius="3.2"
+          radius-tubular="0.1"
+          rotation="90 0 0"
+          scale=".44 .44 0.04"
+          thetaStart="26.7"
+          animation="property: object3D.rotation.y;
+          to: 360;
+          dur: 4000;
+          loop: true"></a-torus>
+        <a-torus
+          id="saturn-ring-2"
+          src="#saturn_ring"
+          segments-tubular="50"
+          radius="2.4"
+          radius-tubular="0.2"
+          rotation="90 0 0"
+          scale=".44 .44 0.04"
+          thetaStart="26.7"
+          animation="property: object3D.rotation.y;
+          to: 360;
+          dur: 4000;
+          loop: true">></a-torus>
+      </a-entity>
+
+      <a-light
+        type="point"
+        intensity="2"
+        position="-8 2 -6"></a-light>
+    </a-scene>
+  </body>
+</html>
