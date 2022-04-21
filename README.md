@@ -50,7 +50,7 @@ En este proyecto se crea una escena con una flor de la vida y se usara la primit
 
 ### 2-Sistema_Solar_1
 
-<a>
+<a>https://rodrigomato00.github.io/A-Frame_exercises/2-Sistema_solar_1/sistema_solar.html
 
 Nuestro sistema solar está formado por nuestra estrella, el Sol, y todo lo que está unido a ella por la gravedad: los planetas Mercurio, Venus, la Tierra, Marte, Júpiter, Saturno, Urano y Neptuno, decenas de lunas.
 
@@ -64,6 +64,8 @@ Nuestro sistema solar está formado por nuestra estrella, el Sol, y todo lo que 
 
 ### 3-crear_escena
 
+<a>https://rodrigomato00.github.io/A-Frame_exercises/3-Crear_escena/escena.html
+
 El sistema de gestión de activos es donde podemos almacenar texturas, audio y archivos de modelos 3D dentro de `<a-assets>`.
 - `<a-sky>` para añadir el cielo o la imagen de 360°.
 - `<a-plane>` para añadir el suelo.
@@ -76,6 +78,8 @@ Crear la escena utilizando los elementos anteriores.
 
 ### 4-Sistema_Solar_2
 
+<a>https://rodrigomato00.github.io/A-Frame_exercises/4-Sistema_solar_2/sistema_solar_2.html
+
 Esta es la parte 2 de un proyecto acumulativo en tres partes. En las partes 2 y 3, añadiremos texturas y animaciones al sistema solar.
 
 - Añadir un `<a-sky>` una imagen de fondo
@@ -86,14 +90,8 @@ Utilice el componente de `animation` para añadir alguna animación de rotación
 
 ### 5-Black_lives_matter
 
+<a>https://rodrigomato00.github.io/A-Frame_exercises/4-Sistema_solar_2/sistema_solar_2.html
+
 El arte perceptual desafía los límites del espectador utilizando técnicas multidimensionales para crear representaciones tridimensionales de imágenes planas. Tiene sus raíces en los conceptos de la historia del arte del perceptualismo, así como en las invenciones del arte conceptual y la performance del siglo XX.
 
 Diseñaremos una pieza de arte perceptual en honor al reciente movimiento Black Lives Matter y en memoria de las vidas perdidas bajo la violencia policial. Estamos utilizando la RV como medio para transmitir un mensaje, y es simplemente... las vidas negras importan. Nos solidarizamos y que cada una de sus almas descanse en paz.
-
-
-
-
-
-
-
-
