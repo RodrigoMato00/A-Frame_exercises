@@ -34,17 +34,23 @@ A-Frame es compatible con la mayoría de los auriculares VR como Vive, Rift, Win
 
 ### 0-VR_html-basico
 
+<a>https://rodrigomato00.github.io/A-Frame_exercises/0-VR_html-basico/basic.html
+
 Html basico para crear una experiencia de realidad virtual
 
 Este HTML el script inicial llamando a A-Frame, una escena con un cubo Rojo.
 
 ### 1-Flor_de_la_vida
 
+<a>https://rodrigomato00.github.io/A-Frame_exercises/1-Flor_de_la%20vida/flor.html
+
 La Flor de la Vida es una figura geométrica compuesta por múltiples círculos superpuestos y espaciados uniformemente, que están dispuestos de manera que forman un patrón en forma de flor con una simetría séxtuple, algo así como un hexágono. El centro de cada círculo está en la circunferencia de seis círculos circundantes del mismo diámetro.
 
 En este proyecto se crea una escena con una flor de la vida y se usara la primitiva `<a-circle>` para crear los círculos y el posicionamiento a utilizar.
 
 ### 2-Sistema_Solar_1
+
+<a>
 
 Nuestro sistema solar está formado por nuestra estrella, el Sol, y todo lo que está unido a ella por la gravedad: los planetas Mercurio, Venus, la Tierra, Marte, Júpiter, Saturno, Urano y Neptuno, decenas de lunas.
 
