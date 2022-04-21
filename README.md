@@ -27,10 +27,10 @@ A-Frame es compatible con la mayoría de los auriculares VR como Vive, Rift, Win
   - `<a-sky>`
 
 - Cada una de las primitivas puede transformarse con los siguientes componentes:
-  - color
-  - position
-  - rotation
-  - scale
+  - `color`
+  - `position`
+  - `rotation`
+  - `scale`
 
 ### 0-VR_html-basico
 
