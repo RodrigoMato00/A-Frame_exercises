@@ -79,7 +79,8 @@ Crear la escena utilizando los elementos anteriores.
 ### 4-Sistema_Solar_2
 
 [Sistema Solar 2](https://rodrigomato00.github.io/A-Frame_exercises/4-Sistema_solar_2/sistema_solar_2.html)
-Esta es la parte 2 de un proyecto acumulativo en tres partes. En las partes 2 y 3, añadiremos texturas y animaciones al sistema solar.
+
+Esta es la parte 2 de un proyecto acumulativo en dos partes. Añadiremos texturas y animaciones al sistema solar.
 
 - Añadir un `<a-sky>` una imagen de fondo
 - Agregar texturas a los planetas y al sol
