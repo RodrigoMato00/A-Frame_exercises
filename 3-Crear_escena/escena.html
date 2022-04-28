@@ -9,13 +9,19 @@
     </head>
 
     <body>
-        <a-scene background="color: black" environment="preset:forest">
+        <a-scene background="color: black" environment="preset:forest physics="debug: true">
             <a-entity camera position="-1.45 1.6 -6" wasd-controls look-controls></a-entity>
             <a-entity camera="near: 0.01" look-controls position="0 1.5 0">
                 <a-entity leap-hand="hand: left"></a-entity>
                 <a-entity leap-hand="hand: right"></a-entity>
             </a-entity>
             
+            <a-plane static-body></a-plane>
+            
+             <a-box static-body position="0 0.5 -5" width="3" height="1" depth="1"></a-box>
+
+            <!-- Dynamic box -->
+            <a-box dynamic-body position="5 0.5 0" width="1" height="1" depth="1"></a-box>
             <a-entity id="world"></a-entity>
         </a-scene>
     </body>
