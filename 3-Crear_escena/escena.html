@@ -1,28 +1,37 @@
+<!doctype html>
 <html>
-
-<head>
-    <title>Prueba 1</title>
-    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
-    <script src="https://unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"></script>
-    <script src="//unpkg.com/aframe-leap-hands/dist/aframe-leap-hands.umd.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/n5ro/aframe-physics-system@v$npm_package_version/dist/aframe-physics-system.min.js"></script>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+        <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
+        <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
+        <script src="https://raw.githack.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
     </head>
 
-    <body>
-        <a-scene background="color: black" environment="preset:forest physics="debug: true">
-            <a-entity camera position="-1.45 1.6 -6" wasd-controls look-controls></a-entity>
-            <a-entity camera="near: 0.01" look-controls position="0 1.5 0">
-                <a-entity leap-hand="hand: left"></a-entity>
-                <a-entity leap-hand="hand: right"></a-entity>
-            </a-entity>
-            
-            <a-plane static-body></a-plane>
-            
-             <a-box static-body position="0 0.5 -5" width="3" height="1" depth="1"></a-box>
+    <body style="margin: 0; overflow: hidden;">
+        <a-scene
+            renderer="logarithmicDepthBuffer: true;"
+            embedded
+            loading-screen="enabled: false;"
+            arjs="sourceType: webcam; debugUIEnabled: false;"
+        >
+            <a-assets>
+                <a-asset-item
+                    id="animated-asset"
+                    src="assets/asset.gltf"
+                ></a-asset-item>
+            </a-assets>
 
-            <!-- Dynamic box -->
-            <a-box dynamic-body position="5 0.5 0" width="1" height="1" depth="1"></a-box>
-            <a-entity id="world"></a-entity>
+                <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#animated-asset"
+                    scale="0.4114959809469476 0.4114959809469476 0.4114959809469476"
+                    gps-entity-place="latitude: 21.290020140355832; longitude: -157.83036634325984;"
+                ></a-entity>
+
+            <a-camera gps-camera rotation-reader></a-camera>
         </a-scene>
     </body>
 </html>
